@@ -1,12 +1,13 @@
 from ucimlrepo import fetch_ucirepo
-import pandas as pd 
+import pandas as pd
 
-def fetch_heart_disease_data() -> tuple[pd.DataFrame, pd.DataFrame]:
+
+def fetch_heart_disease_data() -> pd.DataFrame:
     """
     Fetches the Heart Disease dataset from the UCI Machine Learning Repository.
 
     Returns:
-        tuple[pd.DataFrame, pd.DataFrame]: A tuple containing two DataFrames Features and Labels.
+        pd.DataFrame: DataFrame
     """
     # Fetch the Heart Disease dataset
     heart_disease_dataset = fetch_ucirepo(id=45)

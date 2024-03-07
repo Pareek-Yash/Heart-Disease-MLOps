@@ -7,6 +7,8 @@ and deploying MLOps tools.
 
 1. DVC
 2. MLflow
+3. TensorFlow Serving
+4. Trying NVIDIA Triton inference server
 
 ## Dataset
 
